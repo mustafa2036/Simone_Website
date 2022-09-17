@@ -38,9 +38,10 @@ $(document).ready(function () {
         }, 8000 / goal);
     }
     $("#loading .spinner").fadeOut(900, function(){
-        $("#loading").fadeOut(900, function(){
-            $("#loading").remove();
-            $("body").css("overflow-y", 'auto');
+        $("#loading").fadeOut(3000, function(){
+            $("#loading").fadeOut(1500 , function(){
+                $("body").css("overflow-y", 'auto');
+            });
         })
     });
 

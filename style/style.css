@@ -25,6 +25,7 @@ a {
 
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-y: hidden;
 }
 
 /* Class container */
@@ -565,7 +566,7 @@ footer .footer-links ul {
   bottom: 0;
   right: 0;
   background-color: #1abc9c;
-  z-index: 6566;
+  z-index: 9999;
 }
 
 .spinner {
