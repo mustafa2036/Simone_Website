@@ -45,7 +45,7 @@ $(document).ready(function () {
         })
     });
 
-    let typed = new Typed('.element', {
+    let typed = new Typed('#element', {
         strings: ['Im A FrontEnd', 'Im A Freelancer.'],
         typeSpeed: 100,
         loop: true,
